@@ -1,0 +1,8 @@
+apiVersion: example.com/v1
+kind: PodRequest
+metadata:
+  name: example-podrequest
+spec:
+  podName: example-pod
+  imageName: nginx:1.14.2
+  port: 8080

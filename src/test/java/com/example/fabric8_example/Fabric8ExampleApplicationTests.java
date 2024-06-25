@@ -1,10 +1,10 @@
-package com.example.fabri8_example;
+package com.example.fabric8_example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Fabri8ExampleApplicationTests {
+class Fabric8ExampleApplicationTests {
 
 	@Test
 	void contextLoads() {

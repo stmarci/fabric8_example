@@ -10,4 +10,5 @@ public class Fabric8ExampleApplication {
 		SpringApplication.run(Fabric8ExampleApplication.class, args);
 	}
 
+
 }

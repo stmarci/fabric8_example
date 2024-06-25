@@ -1,0 +1,20 @@
+replicaCount: 1
+
+image:
+  repository: localhost:5000/kubernetes-client
+  tag: latest
+  pullPolicy: IfNotPresent
+
+serviceAccount:
+  create: true
+  name: kubernetes-example
+rbac:
+  create: true
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
