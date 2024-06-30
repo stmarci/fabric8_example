@@ -11,6 +11,10 @@ serviceAccount:
 rbac:
   create: true
 
+service:
+  type: ClusterIP
+  port: 80
+
 resources: {}
 
 nodeSelector: {}
@@ -18,3 +22,5 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+version: "v1"

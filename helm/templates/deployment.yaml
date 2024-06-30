@@ -13,6 +13,8 @@ spec:
     metadata:
       labels:
         {{- include "kubernetes-client.selectorLabels" . | nindent 8 }}
+        app: {{ include "kubernetes-client.fullname" . }}
+        version: {{ .Values.version }}
     spec:
       serviceAccountName: {{ include "kubernetes-client.serviceAccountName" . }}
       containers:

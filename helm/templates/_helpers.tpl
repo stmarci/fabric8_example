@@ -7,7 +7,7 @@
 {{- end -}}
 
 {{- define "kubernetes-client.fullname" -}}
-{{- printf "%s-%s" .Release.Name .Chart.Name -}}
+{{- printf "%s" .Chart.Name -}}
 {{- end -}}
 
 {{- define "kubernetes-client.labels" -}}
